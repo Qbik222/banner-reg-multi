@@ -1,0 +1,136 @@
+$blue: #000055
+$dark-blue: #000034
+$magenta: #ff267e
+$grey: #d9d9d9
+$white: #FFF
+
+$font-favbet-display: FavbetDisplay, sans-serif
+$font-favbet-text: FavbetText, sans-serif
+$font-favbet-text-bold: FavbetTextBold, sans-serif
+$font-roboto-condensed: Roboto Condensed, sans-serif
+body
+  img
+    max-width: 100%
+    height: auto
+.wrapper
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  overscroll-behavior: none
+  height: 100%
+  display: flex
+.banner
+  width: 50%
+  height: calc(var(--vh, 1vh) * 100)
+  position: relative
+  overflow: hidden
+  background: url("../img/banner-bg.jpg") no-repeat 50% 50%/cover
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 540px
+    z-index: 1
+    background: linear-gradient(180deg, rgba(13, 18, 37, 0.00) 0%, #0D1225 100%)
+  &__wrap
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: flex-end
+    height: 100%
+  &__decoration
+    position: absolute
+    bottom: -108px
+    left: 50%
+    transform: translate(-50%, 0%)
+    width: 1390px
+    height: 992px
+    z-index: 2
+    img
+      width: 100%
+      height: auto
+  &__person
+    position: absolute
+    width: 1074px
+    object-fit: cover
+    left: 50%
+    bottom: -170px
+    transform: translateX(-50%)
+    z-index: 3
+    img
+      width: 100%
+      height: auto
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: center
+    z-index: 3
+    margin-top: 91px
+    margin-bottom: auto
+    transform-origin: top center
+  &__title
+    width: 730px
+    font-size: 80px
+    line-height:62px
+    font-weight: 500
+    font-family: $font-favbet-display
+    color: $white
+    text-transform: uppercase
+    margin-bottom: 28px
+    transform: translateX(59px)
+    display: flex
+    align-items: flex-end
+    span
+      font-family: $font-roboto-condensed
+      font-size: 40px
+      margin-left: 4px
+      padding-bottom: 14px
+      justify-content: flex-start
+  &__bonus
+    display: flex
+    z-index: 3
+    justify-content: center
+    align-items: center
+    &-money, &-freespin
+      position: relative
+      display: flex
+      align-items: center
+      justify-content: center
+      span
+        position: relative
+        z-index: 2
+        font-size: 64px
+        font-weight: 500
+        line-height: 48px
+        text-transform: uppercase
+        font-family: $font-favbet-display
+        color: $white
+    &-money
+      left: 34px
+      width: 584px
+      height: 103px
+      img
+        position: absolute
+        width: 100%
+        height: auto
+    &-freespin
+      left: -34px
+      width: 361px
+      height: 103px
+      img
+        position: absolute
+        width: 100%
+        height: auto
+  &__info
+    width: 730px
+    position: absolute
+    bottom: 46px
+    left: 50%
+    transform: translateX(-50%) scale(1.0)
+    font-size: 15px
+    font-weight: 400
+    color: $white
+    text-align: center
+    transform-origin: bottom center
+    z-index: 3
+    font-family: $font-roboto-condensed
