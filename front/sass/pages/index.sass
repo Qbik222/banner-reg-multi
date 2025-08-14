@@ -8,6 +8,26 @@ $font-favbet-display: FavbetDisplay, sans-serif
 $font-favbet-text: FavbetText, sans-serif
 $font-favbet-text-bold: FavbetTextBold, sans-serif
 $font-roboto-condensed: Roboto Condensed, sans-serif
+
+
+.menu-test
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 20
+  display: flex
+  gap: 2px
+  font-size: 20px
+  flex-direction: column
+  & > button
+    width: fit-content
+    background: white
+    color: black
+    padding: 2px
+    font-family: inherit
+    border-radius: 2px
+    font-size: 20px
+
 body
   img
     max-width: 100%
@@ -60,6 +80,16 @@ body
     img
       width: 100%
       height: auto
+    &::before
+      content: ""
+      display: block
+      z-index: 2
+      background: linear-gradient(180deg, rgba(13, 18, 37, 0.00) 0%, #0D1225 59.79%)
+      width: 100%
+      height: 50%
+      position: absolute
+      left: 0
+      bottom: 0
   &__content
     display: flex
     flex-direction: column
@@ -129,6 +159,7 @@ body
     transform: translateX(-50%) scale(1.0)
     font-size: 15px
     font-weight: 400
+    text-shadow: 0 1px 1px black
     color: $white
     text-align: center
     transform-origin: bottom center
