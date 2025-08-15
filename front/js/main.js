@@ -19,14 +19,14 @@ if(debug){
             bonus: "до 225 000 ₴",
             "300fs": "+ 300 FS",
             bannerInfo:
-                "Бонус означає можливість отримати приз у рамках Акції «Вітальний бонус». Деталі на сайті favbet.ua. Дати проведення Акції: з 24.03.2025 до 31.12.2025. Бонус доступний лише для нових клієнтів."
+                "Під бонусом розуміється можливість отримати приз в рамках акції «Вітальний бонус». Період дії акції з 24.03.2025 по 31.12.2025 року. Бонус доступний тільки для нових клієнтів. Деталі на сайті favbet.ua."
         },
         en: {
             bannerTitle: "Welcome Bonus",
             bonus: "up to 225 000 ₴",
             "300fs": "+ 300 FS",
             bannerInfo:
-                "Bonus means the opportunity to receive a prize as part of the «Welcome bonus» Promotion. Details on the website favbet.ua. Promotion dates are from 24.03.2025 to 31.12.2025. The bonus is available for new customers only."
+                "Bonus means the opportunity to receive a prize as part of the «Welcome bonus» Promotion. Details on the website favbet.ua. Promotion dates are from 01.09.2024 to 31.12.2025. The bonus is available for new customers only."
         }
     }
 
