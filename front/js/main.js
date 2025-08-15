@@ -26,7 +26,7 @@ if(debug){
             bonus: "up to 225 000 ₴",
             "300fs": "+ 300 FS",
             bannerInfo:
-                "Bonus means the opportunity to receive a prize as part of the «Welcome bonus» Promotion. Details on the website favbet.ua. Promotion dates are from 01.09.2024 to 31.12.2025. The bonus is available for new customers only."
+                "Bonus means the opportunity to receive a prize as part of the «Welcome bonus» Promotion. Details on the website favbet.ua. Promotion dates are from 24.03.2025 to 31.12.2025. The bonus is available for new customers only."
         }
     }
 
